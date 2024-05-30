@@ -2,6 +2,21 @@
     --app-background-dark: rgb(24, 23, 32);
 }
 
+* {
+    margin: 0; 
+    padding: 0;
+    outline: 0;
+    border-style: none;
+    vertical-align: baseline;
+    box-sizing: border-box;
+    font: inherit;   
+}
+
+html, body {
+    height: 100%;
+    scroll-behavior: smooth;
+}
+
 body {
     font-family: "Montserrat", "sans-serif", Arial, sans-serif;
     line-height: 1.4;
